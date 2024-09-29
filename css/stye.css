@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.tasbeeh-container {
+    text-align: center;
+}
+
+#tasbeehButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#tasbeehCount {
+    font-size: 24px;
+    margin-top: 10px;
+}

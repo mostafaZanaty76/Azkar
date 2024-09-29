@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    height: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color:rgba(0, 0, 0, 0.2);
+
+}
+/* html{
+    font-size: 60%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+} */
+.tasbeeh-container {
+    text-align: center;
+}
+.text{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    /* margin-top: 20%; */
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    align-items: center;
+  display: flex;
+  justify-content: center;
+    /* font-weight: bold; */
+    /* padding-top: 30px; */
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif */
+}
+
+#tasbeehButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#tasbeehCount {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.sora1 {
+    background-image: url(../img2/WhatsApp\ Image\ 2024-03-08\ at\ 14.26.15_a866c0a1.jpg);  
+         min-height: 100vh;
+        background-position: center center;
+        background-size: cover;
+    }
+    
+    .layre {
+        background-color: rgba(0, 0, 0, 0.554);
+    }
+    .stars {
+        font-size: 1rem;
+        color: rgb(255, 213, 0);
+    }
+.fonts{
+    font-size: 2rem;
+    
+}
+.textm{
+    font-size: 2rem;
+}
+.color{
+    color: #fff;
+}
+.mlr{
+ 
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 20px;
+margin-right: 20px;
+}
+    
+@media (min-width:1200px) {
+
+
+
+    .omar {
+
+        width: 25% !important;
+        /* margin: 4px !important; */
+    }
+}
+
+@media (max-width:997px) {
+
+
+    .omar {
+
+        width: 50% !important;
+        /* margin: 4px !important; */
+    }
+}
+
+@media (max-width:767px) {
+
+    .row {
+
+        display: flex !important;
+        flex-direction: column !important;
+
+    }
+
+    .omar {
+
+        width: 100% !important;
+    }
+}
+.row{
+    margin-right: calc(.5 * var(--bs-gutter-x)); 
+
+}
+
+#tasbeehButton{
+     font-size: 2rem;
+}
+.tasbeeh-container{
+    font-size: 2rem;
+}
+
+.navbar-toggler{
+    font-size: 2.2rem;
+}
+
+
+
+/* section{
+    padding: 2rem 9%;
+} */
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    position: relative;
+    z-index: 0;
+}
+.home .content{
+    text-align: center;
+}
+.home .content h3{
+    font-size: 4.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.1);
+}
+.home .content p{
+    font-size: 2.5rem;
+    color: #fff;
+    padding: .5rem 0;
+}
+.home .video-container video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.home .controls{
+    padding: 1rem;
+    border-radius: 5rem;
+    background: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 10rem;
+}
+
+.home .controls .video-btn{
+    height: 2rem;
+    width: 2rem;
+    display: inline-block;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    margin: 0 .5rem;
+}
